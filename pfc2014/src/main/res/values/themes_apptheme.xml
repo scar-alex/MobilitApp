@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.DeviceDefault" >
+        <item name="android:listChoiceIndicatorMultiple">@drawable/apptheme_btn_check_holo_dark</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+    </style>
+
+    <style name="MaterialTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <!-- Set AppCompat’s actionBarStyle -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="windowActionBar">false</item>
+        <!-- Set AppCompat’s color theming attrs -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        
+        <!-- The rest of your attributes -->
+       
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/primary</item>
+    </style>
+
+</resources>
